@@ -1,0 +1,52 @@
+.product-info {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 20px;
+}
+.product-info article {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+.product-info h1 {
+    font-size: 30px;
+}
+.product-info p {
+    line-height: 25px;
+    margin-top: 5px;
+}
+.product-info p a{
+    color: #069;
+}
+.product-info .actions { 
+    display: flex;
+    margin-bottom: 50px;
+}
+.product-info .actions button{ 
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    background: #da552f;
+    font-weight: bold;
+}
+.product-info .actions button:hover { 
+    opacity: 0.7;
+}
+
+.product-info .actions .link{ 
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    background: #da552f;
+    text-decoration: none;
+}
+.product-info .actions .link:hover { 
+    opacity: 0.7;
+}
+
